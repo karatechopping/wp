@@ -1,0 +1,239 @@
+/* Define colors as root variables */
+:root {
+	--body-text-color: #7a7a7a;
+	--heading-text-color: #3c4452;
+	--link-color: #4779c3;
+	--link-focus-hover-color: #2b4f84;
+	--hr-background: #d1d1d1;
+	--cp-top-background: #000;
+	--cp-top-link-color: #fff;
+	--cp-top-icon-color: #fff;
+	--cp-top-social-color: rgba(255, 255, 255, .5);
+	--cp-top-social-hover-color: #fff;
+	--global-btn-bg: #f5af02;
+	--cp-header-title-bg: #2b4f84;
+	--widget-title-after-color: #4779c3;
+  }
+
+ /* Apply root variables */
+ body {
+	color: var(--body-text-color);
+  }
+  h1, h2, h3, h4, h5, h6 {
+	color: var(--heading-text-color);
+  }
+  p {
+	color: var(--body-text-color);
+  }
+  blockquote:before {
+	color: var(--link-color);
+  }
+  a {
+	color: var(--link-color);
+  }
+  a:focus, a:hover {
+	color: var(--link-focus-hover-color);
+  }
+  a:focus {
+	outline: none;
+  }
+  hr {
+	background: var(--hr-background);
+  }
+  .cp-color {
+	color: var(--link-color);
+  }
+  .backtotop {
+	background: var(--link-color);
+  }
+  #cp-top {
+	background: var(--cp-top-background);
+  }
+  #cp-top .c-top-left ul li a {
+	color: var(--cp-top-link-color);
+  }
+  #cp-top .c-top-left ul li a:hover, #cp-top .c-top-left ul li a:hover i {
+	color: var(--link-color);
+  }
+  #cp-top .c-top-left ul li.email i, #cp-top .c-top-left ul li.phone i {
+	color: var(--cp-top-icon-color);
+  }
+  #cp-top .social ul li, #cp-top .social ul li:after {
+	color: var(--cp-top-social-color);
+  }
+  #cp-top .social ul li a:hover {
+	color: var(--cp-top-social-hover-color);
+  }
+  #cp-top .c-top-right a.appointment {
+	background: var(--link-color);
+	color: var(--cp-top-link-color);
+  }
+  #cp-top .c-top-right a.appointment:hover {
+	background: var(--link-focus-hover-color);
+  }
+  .c-top-right a.account-link:hover {
+	color: var(--link-color);
+  }
+  #cp-header a.navbar-brand:hover h2 {
+	color: var(--link-color);
+  }
+  #cp-header .navbar-nav li.current-menu-item a {
+	color: var(--link-color);
+  }
+  #cp-header .navbar-nav li a:hover {
+	color: var(--link-color);
+  }
+  
+  #cp-header .navbar-nav.submit-listing li a {
+	background: var(--link-color);
+  }
+  #cp-header .navbar-nav.submit-listing li a:hover {
+	background: var(--link-focus-hover-color);
+  }
+  
+  /**dropdown**/
+  #cp-header .navbar-nav li:hover ul {
+	background: var(--link-color);
+  }
+  /**end dropdown**/
+  
+  .banner-content .banner-btn a.global-btn:hover {
+	color: var(--link-focus-hover-color);
+  }
+  
+  a.global-btn {
+	background: var(--link-color);
+  }
+  a.global-btn:hover {
+	border-color: var(--link-focus-hover-color);
+	color: var(--link-focus-hover-color);
+  }
+  
+  button.global-btn {
+	background: var(--link-color);
+  }
+  button.global-btn:hover {
+	border-color: var(--link-focus-hover-color);
+	color: var(--link-focus-hover-color);
+  }
+  
+  a.global-btn.btn-solid {
+	color: var(--link-color);
+	background: none; 
+	border: solid 2px var(--link-color);
+  }
+  a.global-btn.btn-solid:hover {
+	color: var(--cp-top-link-color);
+	background: none; 
+	border: solid 2px var(--link-color);
+	background: var(--link-color);
+  }
+  
+  .banner-btn a.global-btn {
+	background: var(--global-btn-bg);
+  }
+  .banner-btn a.global-btn:hover {
+	background: var(--link-color);
+	border-color: var(--link-color);
+	color: var(--cp-top-link-color);
+  }
+  
+  .checklists li i {
+	color: var(--link-focus-hover-color);
+  }
+  
+  .cp-services h4 a:hover {
+	color: var(--link-focus-hover-color);
+  }
+  
+  .our-blog-date {
+	color: var(--link-color);
+  }
+  .blog-item h3 a:hover {
+	color: var(--link-color);
+  }
+  
+  .cp-header-title {
+	background-color: var(--link-focus-hover-color);
+  }
+  
+  .cp-header-title span {
+	background: var(--link-color);
+  }
+  
+  .widget .widget-title:after {
+	color: var(--link-color);
+  }
+  .blog-date {
+	color: var(--link-color);
+  }
+  .widget ul li span {
+	color: var(--link-color);
+  }
+  
+  .widget ul li a:hover {
+	color: var(--link-color);
+  }
+  .comments-area .submit {
+	background: var(--link-color);
+  }
+  
+  .comments-area .submit:hover {
+	background: var(--link-focus-hover-color);
+  }
+  
+  .register-login .global-btn:hover, .acf-form .acf-button:hover {
+	background: var(--link-color);
+	border-color: var(--link-color);  
+  }
+  a.add-listing {
+	background: var(--link-color);
+  }
+  
+  .pricing .pricing-widget:hover .pricing-header .price-cost, 
+  .pricing .pricing-widget.active .pricing-header .price-cost {
+	background-color: var(--link-color);
+  }
+  
+  .pricing .pricing-widget:hover .pricing-content, 
+  .pricing .pricing-widget.active .pricing-content {
+	background-color: var(--link-color);
+  }
+  
+  .listing-comment .comments-area .submit {
+	border: 2px solid var(--link-color);
+	background: var(--link-color);
+  }
+  .paypal-entry .item-field_price span {
+	color: var(--link-color);
+  }
+  .listing-comment .comments-area .submit:hover {
+	background: var(--link-focus-hover-color);
+	border-color: var(--link-focus-hover-color);  
+  }
+
+  /* Services Template */
+  .hero-title::after,
+  .services-grid-title::after,
+  .banner-title::after,
+  .service-process-heading::after,
+  .services-grid-title::after,
+  .service-description-title::after,
+  .cta-button {
+	background: var(--link-color);
+  }
+  
+
+
+  @media ( max-width: 991px ) {
+	#cp-header .navbar-nav li.current-menu-item a {
+	  color: var(--link-color);
+	}
+	#cp-header .navbar-nav i.toggle-down {
+	  background: var(--link-color);
+	}
+	#cp-header .navbar-nav ul li a:hover {
+	  color: var(--link-color);
+	}
+  }
+  

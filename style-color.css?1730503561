@@ -1,0 +1,152 @@
+body, body p{color: #555;}
+h1,h2,h3,h4,h5,h6 {
+	color:#222;
+}
+blockquote:before {
+  color: #fdc521;
+}
+a{
+	color: #fdc521;
+}
+a:focus{color: #0a0000;}
+a:hover{
+	color: #0a0000;
+}
+a:focus{outline: none;}
+hr{background: #d1d1d1;}
+
+.cp-color{
+	color: #fdc521;
+}
+
+.backtotop{background:#fdc521;}
+
+#cp-header .navbar-nav li a{color:#424242 ;}
+
+#cp-top .c-top-left ul li a{color: #fff;}
+#cp-top .c-top-left ul li a:hover,#cp-top .c-top-left ul li a:hover i{color: #fdc521;}
+#cp-top .c-top-left ul li.email i{color: #fff;}
+#cp-top .c-top-left ul li.phone i{color: #fff;}
+
+#cp-top .c-top-left ul li a:hover,#cp-top .c-top-left ul li a:hover i{ color: #fdc521;}
+
+#cp-top .social ul li{color: #fff;}
+#cp-top .social ul li:after{color: rgba(255,255,255,.5);}
+#cp-top .social ul li a{color: rgba(255,255,255,.5);}
+#cp-top .social ul li a:hover{color: #fff;}
+
+.c-top-right a.account-link:hover{color: #fdc521;}
+
+#cp-top .c-top-right a.appointment{background: #fdc521;color: #fff;}
+#cp-top .c-top-right a.appointment:hover{ background: #0a0000;}
+
+#cp-header a.navbar-brand:hover h2{color: #fdc521;}
+
+#cp-header .navbar-nav.submit-listing li a:hover{background: #0a0000; }
+
+.banner-content .banner-btn a.global-btn:hover{color: #0a0000;}
+
+a.global-btn{background: #fdc521;}
+a.global-btn:hover{border-color: #0a0000;color: #0a0000;}
+
+button.global-btn{background: #fdc521;}
+button.global-btn:hover{border-color: #0a0000;color: #0a0000;}
+
+a.global-btn.btn-solid{color: #fdc521;background: none; border: solid 2px #fdc521;}
+a.global-btn.btn-solid:hover{color: #fff;background: none; border: solid 2px #fdc521; background: #fdc521;}
+
+.banner-btn a.global-btn{background: #f5af02;}
+.banner-btn a.global-btn:hover{background: #fdc521;border-color: #fdc521;color: #fff;}
+
+.checklists li i{color: #0a0000;}
+
+.cp-services h4 a:hover{color: #0a0000;}
+
+
+.blog-item h3 a:hover{color: #fdc521;}
+
+.cp-header-title{background-color: #000000;}
+
+.widget .widget-title:after{color: #fdc521;}
+.blog-date{color: #fdc521;}
+.widget ul li span{color: #fdc521;}
+
+.widget ul li a:hover{color: #fdc521;}
+.comments-area .submit{background: #fdc521;}
+
+.comments-area .submit:hover{background: #0a0000;}
+
+.register-login .global-btn:hover, .acf-form .acf-button:hover{
+	background:#fdc521;
+	border-color:#fdc521;
+}
+
+.pricing .pricing-widget:hover .pricing-header .price-cost, .pricing .pricing-widget.active .pricing-header .price-cost {
+    background-color: #fdc521;
+}
+
+.pricing .pricing-widget:hover .pricing-content, .pricing .pricing-widget.active .pricing-content {
+    background-color: #fdc521;
+}
+
+.listing-comment .comments-area .submit{
+	border:2px solid #fdc521;
+	background:#fdc521;
+}
+#cp-header .navbar-nav li a:hover,#cp-header .navbar-nav li.current-menu-item a{color:#fdc521;}
+.listing-comment .comments-area .submit:hover{
+	background:#0a0000;
+	border-color:#0a0000;
+}
+.paypal-entry .item-field_price span{color: #0a0000;}
+//#cp-header .navbar-nav li a{color:#fdc521}
+
+/**@media 991px**/@media ( max-width: 991px ){
+
+
+	#cp-header .navbar-nav i.toggle-down{background: #fdc521;}
+	#cp-header .navbar-nav ul li a:hover{color:#fdc521;}
+	#cp-header .navbar-nav li,#cp-header .navbar-nav li a,
+	//#cp-header .navbar-nav li.current-menu-item a{color:#fdc521 !important;}
+
+}/**end @media 991px**/
+
+
+body .listing_search button.btn[type="submit"] {
+    background: #0a0000;
+}
+.page-template-pricing #page-banner, .page-template-pay #page-banner {
+	background: #fdc521;
+}
+#cp-top{ background: #000000 !important; }
+
+.cp-header-title span,
+a.nlplink{background : #fdc521 ;}
+
+.cp-header-title span:hover,
+a.nlplink:hover{background : #ffffff ;}
+
+.cp-header-title span,
+ a.nlplink,.featured-home h3, .featured-home span{color : #0c0c0c ;}
+
+#page-banner h1 { color: #fff}
+
+.cp-header-title span:hover,
+a.nlplink:hover,.featured-home h3:hover,.featured-home span:hover{color : #0c0c0c !important;}
+
+
+.hero-title::after,
+.services-grid-title::after,
+.banner-title::after,
+.service-process-heading::after,
+.services-grid-title::after,
+.service-description-title::after {
+	background: #fdc521;
+}
+.cta-button {
+	background: #fdc521;
+}
+
+.custom-tab-wrapper #tab-btn-1:checked + label,
+.custom-tab-wrapper #tab-btn-2:checked + label,
+.custom-tab-wrapper #tab-btn-3:checked + label { background-color: #fdc521 !important; }

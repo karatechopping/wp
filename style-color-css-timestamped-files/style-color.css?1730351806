@@ -1,0 +1,152 @@
+body, body p{color: #0c0c0c;}
+h1,h2,h3,h4,h5,h6 {
+	color:#222;
+}
+blockquote:before {
+  color: #09b1d8;
+}
+a{
+	color: #09b1d8;
+}
+a:focus{color: #222;}
+a:hover{
+	color: #222;
+}
+a:focus{outline: none;}
+hr{background: #d1d1d1;}
+
+.cp-color{
+	color: #09b1d8;
+}
+
+.backtotop{background:#09b1d8;}
+
+#cp-header .navbar-nav li a{color:#000 ;}
+
+#cp-top .c-top-left ul li a{color: #fff;}
+#cp-top .c-top-left ul li a:hover,#cp-top .c-top-left ul li a:hover i{color: #09b1d8;}
+#cp-top .c-top-left ul li.email i{color: #fff;}
+#cp-top .c-top-left ul li.phone i{color: #fff;}
+
+#cp-top .c-top-left ul li a:hover,#cp-top .c-top-left ul li a:hover i{ color: #09b1d8;}
+
+#cp-top .social ul li{color: #fff;}
+#cp-top .social ul li:after{color: rgba(255,255,255,.5);}
+#cp-top .social ul li a{color: rgba(255,255,255,.5);}
+#cp-top .social ul li a:hover{color: #fff;}
+
+.c-top-right a.account-link:hover{color: #09b1d8;}
+
+#cp-top .c-top-right a.appointment{background: #09b1d8;color: #fff;}
+#cp-top .c-top-right a.appointment:hover{ background: #222;}
+
+#cp-header a.navbar-brand:hover h2{color: #09b1d8;}
+
+#cp-header .navbar-nav.submit-listing li a:hover{background: #222; }
+
+.banner-content .banner-btn a.global-btn:hover{color: #222;}
+
+a.global-btn{background: #09b1d8;}
+a.global-btn:hover{border-color: #222;color: #222;}
+
+button.global-btn{background: #09b1d8;}
+button.global-btn:hover{border-color: #222;color: #222;}
+
+a.global-btn.btn-solid{color: #09b1d8;background: none; border: solid 2px #09b1d8;}
+a.global-btn.btn-solid:hover{color: #fff;background: none; border: solid 2px #09b1d8; background: #09b1d8;}
+
+.banner-btn a.global-btn{background: #f5af02;}
+.banner-btn a.global-btn:hover{background: #09b1d8;border-color: #09b1d8;color: #fff;}
+
+.checklists li i{color: #222;}
+
+.cp-services h4 a:hover{color: #222;}
+
+
+.blog-item h3 a:hover{color: #09b1d8;}
+
+.cp-header-title{background-color: #222;}
+
+.widget .widget-title:after{color: #09b1d8;}
+.blog-date{color: #09b1d8;}
+.widget ul li span{color: #09b1d8;}
+
+.widget ul li a:hover{color: #09b1d8;}
+.comments-area .submit{background: #09b1d8;}
+
+.comments-area .submit:hover{background: #222;}
+
+.register-login .global-btn:hover, .acf-form .acf-button:hover{
+	background:#09b1d8;
+	border-color:#09b1d8;
+}
+
+.pricing .pricing-widget:hover .pricing-header .price-cost, .pricing .pricing-widget.active .pricing-header .price-cost {
+    background-color: #09b1d8;
+}
+
+.pricing .pricing-widget:hover .pricing-content, .pricing .pricing-widget.active .pricing-content {
+    background-color: #09b1d8;
+}
+
+.listing-comment .comments-area .submit{
+	border:2px solid #09b1d8;
+	background:#09b1d8;
+}
+#cp-header .navbar-nav li a:hover,#cp-header .navbar-nav li.current-menu-item a{color:#09b1d8;}
+.listing-comment .comments-area .submit:hover{
+	background:#222;
+	border-color:#222;
+}
+.paypal-entry .item-field_price span{color: #222;}
+//#cp-header .navbar-nav li a{color:#09b1d8}
+
+/**@media 991px**/@media ( max-width: 991px ){
+
+
+	#cp-header .navbar-nav i.toggle-down{background: #09b1d8;}
+	#cp-header .navbar-nav ul li a:hover{color:#09b1d8;}
+	#cp-header .navbar-nav li,#cp-header .navbar-nav li a,
+	//#cp-header .navbar-nav li.current-menu-item a{color:#09b1d8 !important;}
+
+}/**end @media 991px**/
+
+
+body .listing_search button.btn[type="submit"] {
+    background: #222;
+}
+.page-template-pricing #page-banner, .page-template-pay #page-banner {
+	background: #09b1d8;
+}
+#cp-top{ background: #000000 !important; }
+
+.cp-header-title span,
+a.nlplink{background : #09b1d8 ;}
+
+.cp-header-title span:hover,
+a.nlplink:hover{background : #777 ;}
+
+.cp-header-title span,
+ a.nlplink,.featured-home h3, .featured-home span{color : #fff ;}
+
+#page-banner h1 { color: #fff}
+
+.cp-header-title span:hover,
+a.nlplink:hover,.featured-home h3:hover,.featured-home span:hover{color : #fff !important;}
+
+
+.hero-title::after,
+.services-grid-title::after,
+.banner-title::after,
+.service-process-heading::after,
+.services-grid-title::after,
+.service-description-title::after {
+	background: #09b1d8;
+}
+.cta-button {
+	background: #09b1d8;
+}
+
+.custom-tab-wrapper #tab-btn-1:checked + label,
+.custom-tab-wrapper #tab-btn-2:checked + label,
+.custom-tab-wrapper #tab-btn-3:checked + label { background-color: #09b1d8 !important; }

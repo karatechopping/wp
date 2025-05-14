@@ -1,0 +1,152 @@
+body, body p{color: #555;}
+h1,h2,h3,h4,h5,h6 {
+	color:#222;
+}
+blockquote:before {
+  color: #2142CE;
+}
+a{
+	color: #2142CE;
+}
+a:focus{color: #0a0000;}
+a:hover{
+	color: #0a0000;
+}
+a:focus{outline: none;}
+hr{background: #d1d1d1;}
+
+.cp-color{
+	color: #2142CE;
+}
+
+.backtotop{background:#2142CE;}
+
+#cp-header .navbar-nav li a{color:#424242 ;}
+
+#cp-top .c-top-left ul li a{color: #fff;}
+#cp-top .c-top-left ul li a:hover,#cp-top .c-top-left ul li a:hover i{color: #2142CE;}
+#cp-top .c-top-left ul li.email i{color: #fff;}
+#cp-top .c-top-left ul li.phone i{color: #fff;}
+
+#cp-top .c-top-left ul li a:hover,#cp-top .c-top-left ul li a:hover i{ color: #2142CE;}
+
+#cp-top .social ul li{color: #fff;}
+#cp-top .social ul li:after{color: rgba(255,255,255,.5);}
+#cp-top .social ul li a{color: rgba(255,255,255,.5);}
+#cp-top .social ul li a:hover{color: #fff;}
+
+.c-top-right a.account-link:hover{color: #2142CE;}
+
+#cp-top .c-top-right a.appointment{background: #2142CE;color: #fff;}
+#cp-top .c-top-right a.appointment:hover{ background: #0a0000;}
+
+#cp-header a.navbar-brand:hover h2{color: #2142CE;}
+
+#cp-header .navbar-nav.submit-listing li a:hover{background: #0a0000; }
+
+.banner-content .banner-btn a.global-btn:hover{color: #0a0000;}
+
+a.global-btn{background: #2142CE;}
+a.global-btn:hover{border-color: #0a0000;color: #0a0000;}
+
+button.global-btn{background: #2142CE;}
+button.global-btn:hover{border-color: #0a0000;color: #0a0000;}
+
+a.global-btn.btn-solid{color: #2142CE;background: none; border: solid 2px #2142CE;}
+a.global-btn.btn-solid:hover{color: #fff;background: none; border: solid 2px #2142CE; background: #2142CE;}
+
+.banner-btn a.global-btn{background: #f5af02;}
+.banner-btn a.global-btn:hover{background: #2142CE;border-color: #2142CE;color: #fff;}
+
+.checklists li i{color: #0a0000;}
+
+.cp-services h4 a:hover{color: #0a0000;}
+
+
+.blog-item h3 a:hover{color: #2142CE;}
+
+.cp-header-title{background-color: #000000;}
+
+.widget .widget-title:after{color: #2142CE;}
+.blog-date{color: #2142CE;}
+.widget ul li span{color: #2142CE;}
+
+.widget ul li a:hover{color: #2142CE;}
+.comments-area .submit{background: #2142CE;}
+
+.comments-area .submit:hover{background: #0a0000;}
+
+.register-login .global-btn:hover, .acf-form .acf-button:hover{
+	background:#2142CE;
+	border-color:#2142CE;
+}
+
+.pricing .pricing-widget:hover .pricing-header .price-cost, .pricing .pricing-widget.active .pricing-header .price-cost {
+    background-color: #2142CE;
+}
+
+.pricing .pricing-widget:hover .pricing-content, .pricing .pricing-widget.active .pricing-content {
+    background-color: #2142CE;
+}
+
+.listing-comment .comments-area .submit{
+	border:2px solid #2142CE;
+	background:#2142CE;
+}
+#cp-header .navbar-nav li a:hover,#cp-header .navbar-nav li.current-menu-item a{color:#2142CE;}
+.listing-comment .comments-area .submit:hover{
+	background:#0a0000;
+	border-color:#0a0000;
+}
+.paypal-entry .item-field_price span{color: #0a0000;}
+//#cp-header .navbar-nav li a{color:#2142CE}
+
+/**@media 991px**/@media ( max-width: 991px ){
+
+
+	#cp-header .navbar-nav i.toggle-down{background: #2142CE;}
+	#cp-header .navbar-nav ul li a:hover{color:#2142CE;}
+	#cp-header .navbar-nav li,#cp-header .navbar-nav li a,
+	//#cp-header .navbar-nav li.current-menu-item a{color:#2142CE !important;}
+
+}/**end @media 991px**/
+
+
+body .listing_search button.btn[type="submit"] {
+    background: #0a0000;
+}
+.page-template-pricing #page-banner, .page-template-pay #page-banner {
+	background: #2142CE;
+}
+#cp-top{ background: #000000 !important; }
+
+.cp-header-title span,
+a.nlplink{background : #FECE25 ;}
+
+.cp-header-title span:hover,
+a.nlplink:hover{background : #ffcc00 ;}
+
+.cp-header-title span,
+ a.nlplink,.featured-home h3, .featured-home span{color : #000 ;}
+
+#page-banner h1 { color: #fff}
+
+.cp-header-title span:hover,
+a.nlplink:hover,.featured-home h3:hover,.featured-home span:hover{color : #000 !important;}
+
+
+.hero-title::after,
+.services-grid-title::after,
+.banner-title::after,
+.service-process-heading::after,
+.services-grid-title::after,
+.service-description-title::after {
+	background: #2142CE;
+}
+.cta-button {
+	background: #2142CE;
+}
+
+.custom-tab-wrapper #tab-btn-1:checked + label,
+.custom-tab-wrapper #tab-btn-2:checked + label,
+.custom-tab-wrapper #tab-btn-3:checked + label { background-color: #2142CE !important; }
